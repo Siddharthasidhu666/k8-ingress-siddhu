@@ -50,11 +50,11 @@ kind: Ingress
 metadata:
   name: app2
   annotations:
-   alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:590183868932:certificate/0fc7c9dd-e948-48d2-8a19-ccf661098466
-   alb.ingress.kubernetes.io/target-type: ip
-   alb.ingress.kubernetes.io/scheme: internet-facing
-   alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
-   alb.ingress.kubernetes.io/group.name: joindevops
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:590183868932:certificate/0fc7c9dd-e948-48d2-8a19-ccf661098466
+    alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
+    alb.ingress.kubernetes.io/group.name: joindevops
 spec:
   ingressClassName: alb
   rules:

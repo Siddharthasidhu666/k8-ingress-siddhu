@@ -48,7 +48,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: appl
+  name: app2
   annotations:
    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:590183868932:certificate/0fc7c9dd-e948-48d2-8a19-ccf661098466
    alb.ingress.kubernetes.io/target-type: ip
